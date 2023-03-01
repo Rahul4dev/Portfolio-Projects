@@ -1,0 +1,66 @@
+/* Media Queries */
+/* Controls */
+/* @media screen and (max-width: 1056px) {
+  .controls {
+    flex-direction: row;
+    top: 5%;
+    left: 40%;
+    margin: 4px;
+  }
+
+  .controls .control {
+    margin: 0 0.7rem;
+  }
+
+  .header-content .left-header .h-shape .image {
+    margin-left: 2px;
+    width: calc(100vw - 90%);
+    height: calc(100vh - 30%);
+  }
+  .header-content .left-header .h-shape .image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+  .header-content .right-header {
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 940px) {
+  .header-content .left-header .h-shape .image {
+    width: calc(100vh - 180%);
+    height: calc(100vh - 30%);
+  }
+  .header-content .left-header .h-shape .image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .header-content .left-header .h-shape .image {
+    width: calc(100vh - 224%);
+    height: calc(100vh - 40%);
+  }
+  .header-content .left-header .h-shape .image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-content .right-header {
+    margin-top: 2rem;
+    padding-right: 1rem;
+  }
+  .header-content .left-header .h-shape .image {
+    width: calc(100vh - 300%);
+    height: calc(100vh - 30%);
+  }
+  .header-content .left-header .h-shape .image img {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+} */
