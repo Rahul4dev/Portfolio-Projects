@@ -10,6 +10,7 @@ _Description:_
   - Easy to use and develop
 
 // under process
+_*Deployed:*_ : https://chubby-portfolio.netlify.app/
 
 
 [ChubbyPortfolio.webm](https://user-images.githubusercontent.com/114183358/227734598-9dbcece4-e896-46cf-9002-2e7adea519d1.webm)
