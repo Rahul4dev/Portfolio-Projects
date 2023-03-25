@@ -25,9 +25,23 @@
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+.light-mode {
+  --color-primary: #f8f8f8f8;
+  --color-secondary: #db941a;
+  --color-white: #000000;
+  --color-black: #ffffff;
+  --color-grey0: #191d2b;
+  --color-grey1: #2a2e35;
+  --color-grey2: #b2becd;
+  --color-grey3: #6c7983;
+  --color-grey4: #454e56;
+  --color-grey5: #dbe1e8;
+  --color-grey6: #12181b;
+}
+
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
 }
@@ -80,10 +94,40 @@ header {
   }
 }
 
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  padding: 1rem;
+  cursor: pointer;
+  position: fixed;
+  margin: 0.7rem 0;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-grey4);
+  box-shadow: var(--box-shadow-1);
+  transition: all 0.6s ease-in-out 0.2s;
+}
+
+.theme-btn.active {
+  transition: var(--transition);
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+.theme-btn i {
+  font-size: 1.5rem;
+  color: var(--color-grey2);
+  pointer-events: none;
+}
+
 /** controls button styles  */
 
 .controls {
-  position: absolute;
+  position: fixed !important;
   z-index: 10;
   top: 50%;
   right: 3%;
@@ -121,6 +165,10 @@ header {
   animation: rotate-center 0.6s ease-in-out both;
 }
 
+.controls .active-btn i {
+  color: var(--color-white);
+}
+
 @-webkit-keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
@@ -140,10 +188,6 @@ header {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-.controls .active-btn i {
-  color: var(--color-white);
 }
 
 /** Titles of all sections  */

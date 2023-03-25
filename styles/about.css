@@ -80,7 +80,7 @@
   .about-item
   .about-text-container
   .about-text-small::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 15px;
@@ -108,7 +108,7 @@
 }
 
 .stat-title::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 40px;
@@ -236,11 +236,11 @@
 }
 
 .timeline .timeline-item h5 span {
-  color: var(--color-grey2);
+  color: var(--color-grey3);
   font-weight: 500;
   font-size: 1.2rem;
 }
 
 .timeline .timeline-item p {
-  color: var(--color-grey2);
+  color: var(--color-grey3);
 }

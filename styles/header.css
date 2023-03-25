@@ -47,6 +47,13 @@
   padding-right: 18rem;
 }
 
+#bannerText {
+  text-align: right;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  color: var(--color-secondary);
+}
+
 .header-content .right-header .name {
   font-size: 2rem;
 }
