@@ -10,6 +10,8 @@ _Description:_
   - Easy to use and develop
 
 // under process
+--------------
+
 _*Deployed:*_ : https://chubby-portfolio.netlify.app/
 
 
